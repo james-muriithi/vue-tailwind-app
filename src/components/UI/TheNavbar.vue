@@ -1,5 +1,5 @@
 <template>
-  <nav class="nav">
+  <nav class="nav mb-3">
     <div class="container mx-auto flex flex-wrap items-center justify-between">
       <div
         class="

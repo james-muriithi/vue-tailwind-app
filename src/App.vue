@@ -12,6 +12,7 @@ body {
   html,
   body {
     font-family: "Inter var", sans-serif;
+    background: #f1f1f1;
   }
 }
 </style>
