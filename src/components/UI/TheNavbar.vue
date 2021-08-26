@@ -1,5 +1,5 @@
 <template>
-  <nav class="nav mb-3">
+  <nav class="nav">
     <div class="container mx-auto flex flex-wrap items-center justify-between">
       <div
         class="
@@ -64,7 +64,7 @@
 
 <style scoped>
 nav {
-  @apply relative flex flex-wrap items-center justify-between px-2 py-3 bg-white w-full;
+  @apply relative flex flex-wrap items-center justify-between px-2 py-3 bg-white w-full mb-0 md:mb-3;
 }
 .nav-item a {
   @apply md:text-sm px-3 py-2 flex items-center text-base font-medium text-gray-900 hover:text-yellow-600 leading-snug;
