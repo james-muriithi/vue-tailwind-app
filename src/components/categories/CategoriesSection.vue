@@ -5,7 +5,7 @@
         Explore All Categories
       </h2>
     </div>
-    <div class="categories mt-3 owl-carousel owl-theme">
+    <div class="categories mt-3 owl-carousel owl-theme text-center">
       <category-card
         class="item"
         v-for="category in categories"
@@ -74,7 +74,13 @@ export default {
         600: {
           items: 3,
         },
+        800: {
+          items: 5,
+        },
         1000: {
+          items: 6,
+        },
+        1100: {
           items: 7,
         },
       },
@@ -89,6 +95,10 @@ export default {
   left: 0;
   top: calc(35%);
   right: 0;
+}
+
+.owl-carousel .owl-stage {
+  @apply mx-auto;
 }
 
 .owl-carousel .owl-nav .owl-prev {

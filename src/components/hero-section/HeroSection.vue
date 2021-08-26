@@ -37,8 +37,8 @@ export default {
   name: "HeroSection",
   computed: {
     backgroundImage() {
-      return `background: linear-gradient(to bottom, rgba(43, 43, 49, 0) 0%,  #242429 88%, #242429 100%), 
-          url("${require("@/assets/images/hero-bg.jpg")}") center center / cover no-repeat;`;
+      return `background: linear-gradient(180deg,transparent,rgba(0,0,0,0.6) 70%,rgba(0,0,0,.9) 100%), 
+          url("${require("@/assets/images/hero-bg1.jpg")}") center center / cover no-repeat;`;
     },
   },
 };
