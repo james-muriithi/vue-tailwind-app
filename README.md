@@ -1,4 +1,14 @@
-# vuejs-tailwind-app
+# Vuejs Tailwind App
+
+# Demo
+<a href="htpps://resido-vue.web.app">demo</a>
+
+## Website Designs
+
+<img src="./screenshots/screenshot.jpg" />
+<img src="./screenshots/screenshot2.jpg" />
+<img src="./screenshots/screenshot3.jpg" />
+<img src="./screenshots/screenshot4.jpg" />
 
 ## Project setup
 ```
