@@ -3,11 +3,13 @@
     class="
       container
       mx-auto
-      mb-5
+      mb-2
       bread-crumb
       text-xs
       font-semibold
       text-gray-400
+      pt-3 md:pt-0
+      pl-4 md:pl-0
     "
   >
     <router-link

@@ -1,6 +1,6 @@
 <template>
   <div class="my-3">
-    <ul class="flex flex-row list-none">
+    <ul class="flex flex-col md:flex-row list-none">
       <li class="nav-item">
         <router-link to="#"> All </router-link>
       </li>
@@ -31,9 +31,12 @@ export default {
 
 <style scoped>
 .nav-item a {
-  @apply md:text-sm px-3 py-2 flex items-center text-base font-medium text-gray-600 hover:text-yellow-600 leading-snug;
+  @apply md:text-sm px-3 py-2 flex items-center 
+  text-base font-medium text-gray-600 hover:text-yellow-600 leading-snug;
 }
-
+.nav-item {
+  @apply mt-1 md:mt-0
+}
 .nav-item a.active {
   @apply bg-yellow-600 text-white rounded-lg;
 }

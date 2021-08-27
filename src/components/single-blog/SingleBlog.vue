@@ -31,7 +31,7 @@
       </p>
       <div class="image">
         <img
-          :src="require('@/assets/images/hero-bg2.webp')"
+          :src="require('@/assets/images/banner.jpg')"
           alt="product.imageAlt"
           class="w-full h-full object-center object-cover lg:w-full lg:h-full"
         />

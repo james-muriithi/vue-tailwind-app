@@ -1,5 +1,5 @@
 <template>
-  <div class="pb-7">
+  <div class="pb-7 px-3">
     <bread-crumb :menu="breadcrumbMenu" />
     <div class="container mx-auto mt-7">
       <div class="grid grid-cols-1 gap-3 md:grid-cols-12">

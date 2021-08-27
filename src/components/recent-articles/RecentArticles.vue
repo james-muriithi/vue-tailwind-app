@@ -11,7 +11,7 @@
       >
         <div class="row-span-1 md:row-span-3 relative">
           <img
-            :src="require('@/assets/images/hero-bg.jpg')"
+            :src="require('@/assets/images/g5.jpg')"
             alt="article"
             class="shadow rounded-lg w-full h-full align-middle border-none"
           />
@@ -120,7 +120,7 @@
 
         <div class="row-span-1 md:row-span-2 relative">
           <img
-            :src="require('@/assets/images/hero-bg.jpg')"
+            :src="require('@/assets/images/3.jpg')"
             alt="article"
             class="shadow h-full rounded-lg border-none"
           />

@@ -5,7 +5,7 @@
       <div class="divide-x-2 border bg-gray-300"></div>
       <div class="image">
         <img
-          :src="require('@/assets/images/hero-bg2.webp')"
+          :src="require('@/assets/images/1.jpg')"
           alt="product.imageAlt"
           class="w-full h-full object-center object-cover lg:w-full lg:h-full"
         />

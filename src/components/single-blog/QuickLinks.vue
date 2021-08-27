@@ -1,5 +1,5 @@
 <template>
-  <single-blog-card>
+  <single-blog-card class="hidden md:block">
     <ul class="list-none text-xs font-medium text-gray-700 py-2">
       <li class="my-1 active">
         <router-link to="#" class="py-1">

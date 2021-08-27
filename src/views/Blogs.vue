@@ -1,5 +1,5 @@
 <template>
-  <div class="pb-7">
+  <div class="pb-7 px-3">
     <bread-crumb :menu="breadcrumbMenu" />
     <div class="container mx-auto mt-4">
       <blog-tabs />
@@ -55,7 +55,7 @@ export default {
           author: "John Doe",
           preview:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor.",
-          image: require("@/assets/images/hero-bg1.jpg"),
+          image: require("@/assets/images/3.jpg"),
           category: "Construction",
           url: "/blogs/lorem-ipsum"
         },
@@ -64,7 +64,7 @@ export default {
           author: "Jane Doe",
           preview:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor.",
-          image: require("@/assets/images/hero-bg.jpg"),
+          image: require("@/assets/images/bg2.jpg"),
           category: "Construction",
           url: "/blogs/lorem-ipsum"
         },
@@ -76,7 +76,7 @@ export default {
           author: "John Doe",
           preview:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor.",
-          image: require("@/assets/images/hero-bg2.webp"),
+          image: require("@/assets/images/g5.jpg"),
           category: "Construction",
           url: "/blogs/lorem-ipsum"
         },
