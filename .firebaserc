@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "resido-vue"
+  },
+  "targets": {
+    "resido-vue": {
+      "hosting": {
+        "resido": [
+          "resido-vue"
+        ]
+      }
+    }
+  }
+}
