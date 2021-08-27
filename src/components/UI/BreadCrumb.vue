@@ -10,13 +10,25 @@
       text-gray-400
     "
   >
-    <router-link to="#" class="item">Home</router-link>
+    <router-link
+      :to="item.url"
+      class="item"
+      v-for="item in menu"
+      :key="item.name"
+      >{{ item.name }}</router-link
+    >
   </div>
 </template>
 
 <script>
 export default {
   name: "BreadCrumb",
+  props: {
+    menu: {
+      type: Array,
+      required: true,
+    },
+  },
 };
 </script>
 

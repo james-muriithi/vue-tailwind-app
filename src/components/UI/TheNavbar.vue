@@ -54,7 +54,7 @@
             <router-link to="#"> Cost Estimator </router-link>
           </li>
           <li class="nav-item">
-            <router-link to="#"> Blogs </router-link>
+            <router-link to="/blogs"> Blogs </router-link>
           </li>
         </ul>
       </div>
@@ -70,9 +70,9 @@ nav {
   @apply md:text-sm px-3 py-2 flex items-center text-base font-medium text-gray-900 hover:text-yellow-600 leading-snug;
 }
 
-.router-link-active.router-link-exact-active{
-  /* @apply text-yellow-600 */
-}
+/* .router-link-active.router-link-exact-active{
+  @apply text-yellow-600
+} */
 
 .btn {
   @apply cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block md:hidden outline-none focus:outline-none;
