@@ -72,7 +72,7 @@ export default {
       smallBlogs: [
         {
           title:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor.",
+            "Title goes here.",
           author: "John Doe",
           preview:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor.",

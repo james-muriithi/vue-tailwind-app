@@ -42,10 +42,6 @@ export default {
 </script>
 
 <style scoped>
-.input-control {
-  @apply px-3 py-3 placeholder-gray-300 text-gray-600 relative bg-white bg-white rounded 
-  text-sm border-2 border-gray-200 outline-none focus:outline-none focus:border-gray-300 w-full;
-}
 .btn {
   @apply rounded-lg h-full px-3 py-2 bg-transparent outline-none shadow-none
   bg-yellow-600 border-solid border-2 text-white uppercase font-medium text-xs;

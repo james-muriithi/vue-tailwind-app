@@ -56,11 +56,4 @@ export default {
 .card-body {
   @apply mt-3 px-4;
 }
-.btn-category {
-  @apply rounded-full px-3 text-gray-700;
-  background: #f0eade;
-  font-size: 11px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-}
 </style>
