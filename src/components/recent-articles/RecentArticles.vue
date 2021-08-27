@@ -17,7 +17,7 @@
           />
           <div class="article bottom-left text-white">
             <router-link
-              to="#"
+              to="/blogs/lorem-ipsum"
               class="
                 bg-white
                 text-gray-800
@@ -45,7 +45,7 @@
 
           <div class="article bottom-left text-white">
             <router-link
-              to="#"
+              to="/blogs/lorem-ipsum"
               class="
                 bg-white
                 text-gray-800
@@ -72,7 +72,7 @@
           />
           <div class="article bottom-left text-white">
             <router-link
-              to="#"
+              to="/blogs/lorem-ipsum"
               class="
                 bg-white
                 text-gray-800
@@ -99,7 +99,7 @@
           />
           <div class="article bottom-left text-white">
             <router-link
-              to="#"
+              to="/blogs/lorem-ipsum"
               class="
                 bg-white
                 text-gray-800
@@ -126,7 +126,7 @@
           />
           <div class="article bottom-left text-white">
             <router-link
-              to="#"
+              to="/blogs/lorem-ipsum"
               class="
                 bg-white
                 text-gray-800
@@ -153,7 +153,7 @@
           />
           <div class="article bottom-left text-white">
             <router-link
-              to="#"
+              to="/blogs/lorem-ipsum"
               class="
                 bg-white
                 text-gray-800
@@ -181,7 +181,7 @@
 
           <div class="article bottom-left text-white">
             <router-link
-              to="#"
+              to="/blogs/lorem-ipsum"
               class="
                 bg-white
                 text-gray-800

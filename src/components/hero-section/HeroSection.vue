@@ -9,12 +9,12 @@
           <h1 class="text-white text-4xl font-semibold pb-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing.
           </h1>
-          <div class="read-more mt-4 pl-3">
-            <button
+          <div class="read-more mt-5 pl-3">
+            <router-link to="/blogs/lorem-ipsum" 
               class="
                 rounded
                 px-4
-                py-2
+                py-3
                 bg-transparent
                 border-white border-solid border-2
                 text-white
@@ -24,7 +24,7 @@
               "
             >
               Read Article
-            </button>
+            </router-link>
           </div>
         </div>
       </div>

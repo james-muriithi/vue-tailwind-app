@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <router-link to="#">
+    <router-link :to="category.url">
       <div class="h-16 w-16 mt-3 mx-auto">
         <img
           :src="category.image"

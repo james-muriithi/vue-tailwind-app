@@ -33,22 +33,27 @@ export default {
         {
           name: "Construction",
           image: require("@/assets/images/construction.webp"),
+          url: '/blogs'
         },
         {
           name: "Planning",
           image: require("@/assets/images/planning.webp"),
+          url: '/blogs'
         },
         {
           name: "Sustainability",
           image: require("@/assets/images/sustainability.webp"),
+          url: '/blogs'
         },
         {
           name: "Design",
           image: require("@/assets/images/design.webp"),
+          url: '/blogs'
         },
         {
           name: "Materials",
           image: require("@/assets/images/materials.webp"),
+          url: '/blogs'
         },
       ],
     };

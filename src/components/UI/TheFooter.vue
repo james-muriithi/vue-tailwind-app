@@ -46,7 +46,7 @@
         <div class="divide-x-2 border bg-gray-300"></div>
         <div class="mt-5 text-xs flex mr-5">
           <div class="">© Resido Copyright</div>
-          <ul class="flex-col hidden lg:flex-row list-none ml-auto">
+          <ul class="hidden md:flex md:flex-row list-none ml-auto">
             <li class="nav-item">
               <router-link to="#"> Design </router-link>
             </li>
