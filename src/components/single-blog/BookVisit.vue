@@ -16,7 +16,7 @@
           class="
             uppercase
             text-sm
-            rounded-sm
+            rounded-md
             text-white
             py-2
             bg-yellow-600
