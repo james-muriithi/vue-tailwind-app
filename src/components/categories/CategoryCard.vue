@@ -1,15 +1,17 @@
 <template>
   <div class="card">
-    <div class="h-16 w-16 mt-3 mx-auto">
-      <img
-        :src="category.image"
-        alt="product.imageAlt"
-        class="w-full h-full object-center object-cover"
-      />
-    </div>
-    <div class="category_name text-center pt-5">
-      <h6 class="font-semibold text-gray-900">{{ category.name }}</h6>
-    </div>
+    <router-link to="#">
+      <div class="h-16 w-16 mt-3 mx-auto">
+        <img
+          :src="category.image"
+          alt="product.imageAlt"
+          class="w-full h-full object-center object-cover"
+        />
+      </div>
+      <div class="category_name text-center pt-5">
+        <h6 class="font-semibold text-gray-900">{{ category.name }}</h6>
+      </div>
+    </router-link>
   </div>
 </template>
 <script>
