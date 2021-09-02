@@ -1,6 +1,6 @@
 <template>
   <the-navbar />
-  <router-view />
+  <router-view class="content" />
   <the-footer />
 </template>
 
@@ -26,5 +26,8 @@ body {
   font-size: 11px;
   padding-top: 7px;
   padding-bottom: 7px;
+}
+.sticky-nav~.content{
+  margin-top: 120px;
 }
 </style>

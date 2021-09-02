@@ -88,12 +88,19 @@ export default {
 
       this.rightSide.style.marginTop = 0;
 
-      if (window.pageYOffset > this.leftSideOffset - 50 && deviceWidth > 768) {
+      if (deviceWidth < 768 && window.pageYOffset > 200) {
+        document.getElementsByTagName('nav')[0].classList.add("sticky-nav");
+        return;
+      }
+
+      if (window.pageYOffset > this.leftSideOffset - 120 && deviceWidth > 768) {
         this.leftSide.classList.add("sticky");
         this.rightSide.classList.add("sticky");
+        document.getElementsByTagName('nav')[0].classList.add("sticky-nav");
       } else {
         this.leftSide.classList.remove("sticky");
         this.rightSide.classList.remove("sticky");
+        document.getElementsByTagName('nav')[0].classList.remove("sticky-nav");
       }
     },
   },
@@ -114,7 +121,7 @@ export default {
 <style scoped>
 .sticky {
   position: fixed;
-  top: 50px;
+  top: 120px;
   width: 300px;
 }
 @media screen and (max-width: 1200px) {

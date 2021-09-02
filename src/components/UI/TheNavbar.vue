@@ -1,5 +1,5 @@
 <template>
-  <nav class="nav">
+  <nav class="nav w-full">
     <div class="container mx-auto flex flex-wrap items-center justify-between">
       <div
         class="
@@ -79,5 +79,12 @@ nav {
 }
 .logo {
   @apply text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap;
+}
+
+.sticky-nav {
+  @apply fixed bg-white top-0 w-full z-40;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;  
 }
 </style>
