@@ -1,5 +1,5 @@
 <template>
-    <div class="card">
+    <div class="card rounded-md">
         <slot></slot>
     </div>
 </template>
@@ -11,6 +11,6 @@ export default {
 
 <style scoped>
 .card{
-    @apply p-5 shadow-sm w-full rounded-md bg-white;
+    @apply p-5 shadow-sm w-full bg-white;
 }
 </style>

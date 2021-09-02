@@ -30,5 +30,6 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Todo
+1. Lazy load images
+1. form validation

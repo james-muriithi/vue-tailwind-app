@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white p-5 w-full">
+  <div class="bg-white p-5 w-full relative">
     <div class="container mx-auto">
       <div class="pt-5 grid grid-cols-1 md:grid-cols-3 gap-3">
         <div class="md:mx-auto md:mt-0 mt-3">
@@ -76,6 +76,9 @@ export default {
 </script>
 
 <style scoped>
+.z-1000{
+  z-index: 1000;
+}
 .icons a {
   @apply mr-4;
 }
