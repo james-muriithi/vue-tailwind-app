@@ -32,4 +32,5 @@ npm run lint
 
 ### Todo
 1. Lazy load images
-1. form validation
+1. Form validation
+1. Sticky header
