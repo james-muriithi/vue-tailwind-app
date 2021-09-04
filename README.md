@@ -34,3 +34,4 @@ npm run lint
 1. Lazy load images
 1. Form validation
 1. Sticky header
+1. 
