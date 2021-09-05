@@ -1,7 +1,7 @@
 # Vuejs Tailwind App
 
-# Demo
-<a href="htpps://resido-vue.web.app">demo</a>
+## Demo
+<a href="https://resido-vue.web.app">demo</a>
 
 ## Website Designs
 
